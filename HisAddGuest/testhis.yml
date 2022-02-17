@@ -1,0 +1,52 @@
+
+his域名: his.aiyzy.com
+testhis域名: testhis.aiyzy.com
+
+#登录页xpath
+登录页确定键: //*[@id="app"]/div/form/button
+
+#完善信息页xpath
+姓名输入框: //*[@id="app"]/div/div[2]/section/div/div[1]/div/div[2]/div/div/div/div/form/div[2]/div/div[1]/input
+性别单选框: //*[@id="app"]/div/div[2]/section/div/div[1]/div/div[2]/div/div/div/div/form/div[3]/div/div/div/input
+性别男: /html/body/div[3]/div[1]/div[1]/ul/li[1]/span
+性别女: /html/body/div[3]/div[1]/div[1]/ul/li[2]/span
+出生日期输入框: //*[@id="app"]/div/div[2]/section/div/div[1]/div/div[2]/div/div/div/div/form/div[8]/div/div/input
+出生日期: //*[@class="el-picker-panel el-date-picker el-popper"]/div[1]/div/div[2]/table[1]/tbody/tr[4]/td[3]/div/span
+医生选择框: //*[@id="app"]/div/div[2]/section/div/div[1]/div/div[2]/div/div/div/div/form/div[11]/div/div/div/input
+选择医生: /html/body/div[5]/div[1]/div[1]/ul/li[1]/span
+预约日期选择框: //*[@id="app"]/div/div[2]/section/div/div[1]/div/div[2]/div/div/div/div/form/div[12]/div/div[1]/input
+#注意每次使用前需修改日期为可选的日期
+预约日期: /html/body/div[6]/div[1]/div/div[2]/table[1]/tbody/tr[4]/td[2]/div/span
+预约时间选择框: //*[@id="app"]/div/div[2]/section/div/div[1]/div/div[2]/div/div/div/div/form/div[13]/div/div/div[1]/input
+#如果是下午操作需要将预约时间选择为下午
+预约时间: /html/body/div[7]/div[1]/div[1]/ul/li[2]/span
+男性全检: //*[@id="app"]/div/div[2]/section/div/div[1]/div/div[2]/div/div/div/div/form/div[14]/div/div/label[4]/span[1]/span
+女性全检: //*[@id="app"]/div/div[2]/section/div/div[1]/div/div[2]/div/div/div/div/form/div[14]/div/div/label[5]/span[1]/span
+全身检查: //*[@id="app"]/div/div[2]/section/div/div[1]/div/div[2]/div/div/div/div/form/div[14]/div/div/label[2]/span[1]/span
+面部检查: //*[@id="app"]/div/div[2]/section/div/div[1]/div/div[2]/div/div/div/div/form/div[14]/div/div/label[3]/span[1]/span
+提交按钮: //*[@id="app"]/div/div[2]/section/div/div[1]/div/div[2]/div/div/div/div/form/div[18]/div/button[2]
+
+# 预约签到页xpath
+已到诊按钮: //*[@id="app"]/div/div[2]/section/div/div[1]/div/div[2]/div/div[1]/div[3]/div[2]/div[1]/div[4]/div[2]/table/tbody/tr[1]/td[10]/div/button[2]
+确定到诊: /html/body/div[3]/div/div[3]/button[2]/span
+
+# 收费页xpath
+其他收费按钮: //*[@id="app"]/div/div[2]/section/div/div[1]/div/div[2]/div/div[1]/div[3]/div/div[1]/div[4]/div[2]/table/tbody/tr[1]/td[15]/div/button[3]/span
+确定收费: //*[@id="app"]/div/div[2]/section/div/div[1]/div/div[2]/div/div[4]/div/div/div[3]/span/button[2]/span
+日期搜索框: //*[@id="app"]/div/div[2]/section/div/div[1]/div/div[2]/div/div[1]/div[2]/div/form/div/div[6]/div/div/input[2]
+
+选择搜索日期: /html/body/div[3]/div[1]/div[2]/div[1]/table/tbody/tr[5]/td[4]/div/span
+搜索按钮: //*[@id="app"]/div/div[2]/section/div/div[1]/div/div[2]/div/div[1]/div[2]/div/form/div/div[8]/div/button/span
+
+# 活动登记页
+registerPage:
+  新增按钮: //*[@id="app"]/div/div[2]/section/div/div[1]/div/div[2]/div/div/div[3]/div[1]/header/a/button/span
+  手机号输入框: //*[@id="app"]/div/div[2]/section/div/div[1]/div/div[2]/div/div/div/form/div[1]/div/div[1]/input
+  姓名输入框: //*[@id="app"]/div/div[2]/section/div/div[1]/div/div[2]/div/div/div/form/div[2]/div/div/input
+  性别单选框: //*[@id="app"]/div/div[2]/section/div/div[1]/div/div[2]/div/div/div/form/div[3]/div/div/div[1]/input
+  性别男: /html/body/div[3]/div[1]/div[1]/ul/li[1]
+  性别女: /html/body/div[3]/div[1]/div[1]/ul/li[2]
+  出生日期输入框: //*[@id="app"]/div/div[2]/section/div/div[1]/div/div[2]/div/div/div/form/div[4]/div/div/input
+  出生日期: /html/body/div[4]/div[1]/div/div[2]/table[1]/tbody/tr[2]/td[1]
+  全身检查: //*[@id="serverId"]/label[5]/span[1]/span
+  确定登记按钮: //*[@id="app"]/div/div[2]/section/div/div[1]/div/div[2]/div/div/div/form/div[10]/div/button[2]
